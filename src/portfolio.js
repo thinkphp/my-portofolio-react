@@ -2,21 +2,21 @@ import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
+  homepage: 'https://thinkphp.github.io/my-portofolio-react',
   title: 'JS.',
 }
 
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
+  name: 'Adrian Statescu',
   role: 'Full stack developer',
   description:
-    'UW and SMU bootcamp student living in Seattle,Washington. highly interested in cutting edge technology, web development and Java back end development.',
-  resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
+    'I am living in Romania. highly interested in cutting edge technology, web development and Java back end development.',
+  resume: 'http://thinkphp.github.io',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/staescuadrian',
+    github: 'https://github.com/thinkphp',
   },
 }
 
@@ -61,7 +61,7 @@ const projects = [
       'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
     stack: ['html-css-javascript', 'sequelize', 'React'],
     sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+    livePreview: 'https://thinkphp.github.io',
   },
 ]
 
@@ -90,7 +90,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'mergesortv@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
